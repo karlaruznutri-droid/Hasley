@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Te Amo Cuchito</title>
+  <style>
+    /* Estilo general */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #f5af19, #f12711);
+      font-family: "Arial", sans-serif;
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 4rem;
+      text-align: center;
+      animation: fade-in 2s ease-in-out;
+    }
+
+    p {
+      font-size: 1.5rem;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .heart {
+      font-size: 100px;
+      color: red;
+      text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.2);
+      }
+    }
+
+    @keyframes fade-in {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Te amo, cuchito ❤️</h1>
+    <p>Eres el amor de mi vida y mi faro en la oscuridad.</p>
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
