@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores Amarillas</title>
+    <style>
+        body {
+            background-color: #fffbe7; /* Fondo suave amarillo */
+            color: #3a3a3a;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffa500; /* Color naranja dorado */
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.5;
+            color: #556b2f; /* Verde oliva oscuro */
+            margin-bottom: 30px;
+        }
+
+        .flower-image {
+            width: 60%; /* Tamaño de la imagen */
+            max-width: 500px; /* Límite máximo */
+            border-radius: 12px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 1rem;
+            color: #787878;
+        }
+    </style>
+</head>
+<body>
+    <h1>Flores Amarillas</h1>
+    <p>Eres más hermoso que todas las flores amarillas,<br>tu luz siempre será mi faro, cuchito.</p>
+    <img class="flower-image" src="https://images.unsplash.com/photo-1495206414106-c9b60f8c44b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDF8fHlvd2VsbG93JTIwZmxvd2VyfGVufDB8fHx8MTY3NzI2NDI4Mw&ixlib=rb-4.0.3&q=80&w=1080" alt="Flores amarillas">
+    <footer>
+        <p>Con amor para siempre ❤️</p>
+    </footer>
+</body>
+</html>
