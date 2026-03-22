@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dancing Flowers</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #FFD700;
+            overflow: hidden;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        .flower {
+            position: relative;
+            width: 50px;
+            height: 50px;
+            animation: dance 2s infinite;
+        }
+        @keyframes dance {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+        .message {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: #563c4d;
+            animation: fadeIn 5s infinite;
+        }
+        @keyframes fadeIn {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="flower">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/Flower_icon_green.svg" alt="Flower" />
+    </div>
+    <div class="message">
+        <p>te amo tan bonito como todas las flores amarillas y brillantes, pero no tan luminosas como tu mi cuchito</p>
+    </div>
+</body>
+</html>
